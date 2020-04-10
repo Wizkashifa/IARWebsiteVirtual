@@ -612,7 +612,7 @@ section {
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: #f3deb9;
 }
 
 .services .icon-box:hover .icon i {
@@ -753,7 +753,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #f3deb9;
   display: flex;
   justify-content: center;
   align-items: center;
