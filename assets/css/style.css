@@ -564,6 +564,11 @@ section {
   padding-bottom: 0;
 }
 
+.resume strong {
+  font-weight: 500;
+  font-family: "Oswald"
+}
+
 .resume .resume-item h6 {
   font-size: 16px;
   display: inline-block;
