@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Montserrat", sans-serif;
-  color: #272829;
+  color: black;
 }
 
 a {
@@ -23,7 +23,7 @@ a:hover {
 }
 
 a:link, a:visited {
-  color: #901400;
+  color: #ae1800;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,6 +36,75 @@ h1, h2, h3, h4, h5, h6 {
 ::-moz-selection {
   background: #f3deb9; /* Gecko Browsers */
 }
+
+/*----------
+ Navbar 
+ -------*/
+
+
+#mainNav {
+  background-color: #340f00;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 100%;
+  right: 0;
+  padding: 8px;
+  text-transform: uppercase;
+  color: #340f00;
+  border: 0;
+  background-color: #f3deb9;
+  font-family: 'Oswald', sans-serif;
+}
+
+#mainNav .navbar-brand {
+  color: #340f00;
+  font-family: 'Oswald', sans-serif;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #fec503;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #901400;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: #340f00;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #f3deb9;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -356,6 +425,11 @@ section {
   font-size: 30px;
 }
 
+.about a:hover {
+  color: #901400;
+  font-weight: 600;
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -488,6 +562,11 @@ section {
 
 .resume .resume-item:last-child {
   padding-bottom: 0;
+}
+
+.resume a:hover {
+  color: #901400;
+  font-weight: 600;
 }
 
 .resume .resume-item::before {
@@ -746,6 +825,11 @@ section {
 
 .testimonials .owl-dot.active {
   background-color: #901400 !important;
+}
+
+.testimonials a:hover {
+  color: #901400;
+  font-weight: 600;
 }
 
 @media (max-width: 767px) {
@@ -1040,6 +1124,11 @@ section {
 
 .portfolio-details .portfolio-description {
   padding-top: 50px;
+}
+
+.portfolio-details a:hover {
+  color: #901400;
+  font-weight: 600;
 }
 
 .portfolio-details .portfolio-description h2 {
