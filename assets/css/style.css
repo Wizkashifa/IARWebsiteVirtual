@@ -564,6 +564,13 @@ section {
   padding-bottom: 0;
 }
 
+.resume .resume-item h6 {
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
 .resume a:hover {
   color: #901400;
   font-weight: 600;
