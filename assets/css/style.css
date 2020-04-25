@@ -1124,6 +1124,15 @@ section {
   border-bottom: 1px solid #eee;
 }
 
+.portfolio-details .portfolio-description h5 {
+  font-size: 16px;
+  background: #f3deb9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
